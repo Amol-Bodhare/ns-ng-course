@@ -27,7 +27,10 @@ You can learn more about the NativeScript core theme at https://github.com/nativ
     <ListView [items]="items">
         <ng-template let-item="item">
             <StackLayout>
-                <Label [nsRouterLink]="['/item', item.id]" [text]="item.name"></Label>
+                <FlexboxLayout flexWrap="wrap" justifyContent="space-between">
+                    <Label [nsRouterLink]="['/item', item.id]" [text]="item.name"></Label>
+                    <ns-thumbnail-icon></ns-thumbnail-icon>
+                </FlexboxLayout>
             </StackLayout>
         </ng-template>
     </ListView>

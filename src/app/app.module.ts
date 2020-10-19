@@ -5,7 +5,7 @@ import { AppRoutingModule } from "./app-routing.module";
 import { AppComponent } from "./app.component";
 import { ItemsComponent } from "./item/items.component";
 import { ItemDetailComponent } from "./item/item-detail.component";
-
+import {ThumbnailIconComponent} from "./features/thumbnail-icon/thumbnail-icon.component";
 @NgModule({
     bootstrap: [
         AppComponent
@@ -17,7 +17,8 @@ import { ItemDetailComponent } from "./item/item-detail.component";
     declarations: [
         AppComponent,
         ItemsComponent,
-        ItemDetailComponent
+        ItemDetailComponent,
+        ThumbnailIconComponent,
     ],
     providers: [],
     schemas: [
