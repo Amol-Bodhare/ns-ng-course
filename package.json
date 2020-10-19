@@ -47,6 +47,8 @@
     "@nativescript/types": "~7.0.0",
     "@nativescript/webpack": "~3.0.0",
     "@ngtools/webpack": "~10.1.0",
+    "node-sass": "^4.14.1",
+    "sass-loader": "^10.0.3",
     "typescript": "~3.9.0"
   },
   "private": "true",

@@ -5,7 +5,8 @@ import { ItemService } from "./item.service";
 
 @Component({
     selector: "ns-items",
-    templateUrl: "./items.component.html"
+    templateUrl: "./items.component.html",
+    styleUrls: ["./items.component.scss"]
 })
 export class ItemsComponent implements OnInit {
     items: Array<Item>;
